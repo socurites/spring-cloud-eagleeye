@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/mydb
+    username: root
+    driver-class-name: org.mariadb.jdbc.Driver
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - env
+example:
+  property: "I AM IN THE DEFAULT"

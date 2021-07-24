@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        
+#        native:
+#          search-locations:
+#            - /Users/junyisong/Wokrkspace/Java/spring-cloud-eagleeye/spring-eagleeye-config-native/license-service/
