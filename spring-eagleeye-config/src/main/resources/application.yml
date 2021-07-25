@@ -11,6 +11,7 @@ spring:
           default-label: main
           search-paths:
             - spring-eagleeye-config-native/license-service/
+            - spring-eagleeye-config-native/discovery-service/
 #          username: socurites@gmail.com
 #          password:
 #        native:
