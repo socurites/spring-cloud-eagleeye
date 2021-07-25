@@ -1,0 +1,27 @@
+server:
+  port: 8082
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/oragnization
+    username: root
+    driver-class-name: org.mariadb.jdbc.Driver
+eureka:
+  instance:
+    instance-id: '${spring.application.name}:${spring.application.instance_id:${random.value}}'
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - env
+example:
+  property: "I AM IN THE DEFAULT"
