@@ -1,9 +1,0 @@
-spring:
-  jpa:
-    show-sql: true
-  datasource:
-    url: jdbc:mariadb://localhost:3306/mydb
-    username: root
-    driver-class-name: org.mariadb.jdbc.Driver
-example:
-  property: "I AM IN THE DEV"
