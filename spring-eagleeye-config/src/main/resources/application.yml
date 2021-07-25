@@ -2,11 +2,17 @@ server:
   port: 8888
 spring:
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        
+        git:
+          uri: https://github.com/socurites/spring-cloud-eagleeye
+          default-label: main
+          search-paths:
+            - spring-eagleeye-config-native/license-service/
+#          username: socurites@gmail.com
+#          password:
 #        native:
 #          search-locations:
 #            - /Users/junyisong/Wokrkspace/Java/spring-cloud-eagleeye/spring-eagleeye-config-native/license-service/
