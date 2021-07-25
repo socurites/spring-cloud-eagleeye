@@ -4,7 +4,7 @@ spring:
   jpa:
     show-sql: true
   datasource:
-    url: jdbc:mariadb://127.0.0.1:3306/oragnization
+    url: jdbc:mariadb://127.0.0.1:3306/organization
     username: root
     driver-class-name: org.mariadb.jdbc.Driver
 eureka:
