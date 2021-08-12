@@ -12,6 +12,7 @@ spring:
           search-paths:
             - spring-eagleeye-config-native/license-service/
             - spring-eagleeye-config-native/discovery-service/
+            - spring-eagleeye-config-native/organization-service/
 #          username: socurites@gmail.com
 #          password:
 #        native:

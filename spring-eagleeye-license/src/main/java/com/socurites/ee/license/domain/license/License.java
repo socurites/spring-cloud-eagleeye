@@ -26,6 +26,12 @@ public class License extends BaseEntity {
 
   private String licenseType;
 
+  @Column(nullable = false)
+  private Integer licenseMax;
+
+  @Column(nullable = false)
+  private Integer licenseAllocated;
+
   private String comment;
 
   @Builder
