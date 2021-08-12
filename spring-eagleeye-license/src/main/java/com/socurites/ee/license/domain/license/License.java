@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Getter
-@NoArgsConstructor
+@NoArgsConstr uctor
 public class License extends BaseEntity {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

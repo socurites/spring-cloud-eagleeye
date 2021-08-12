@@ -3,7 +3,7 @@ server:
 spring:
   jpa:
     show-sql: true
-    hiberante:
+    hibernate:
       ddl-auto: create-drop
   datasource:
     url: jdbc:mariadb://127.0.0.1:3306/mydb
