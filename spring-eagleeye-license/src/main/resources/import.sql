@@ -1,0 +1,4 @@
+INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('f3831f8cc3384ebea82ae2fc1d1ff78a', 'e254f8cc4424ebea82ae2fc1d1ff78a', 'user','CustomerPro', 100,5);
+INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('t9876f8cc3384abczf6attt1', 'e254f8cc4424ebea82ae2fc1d1ff78a', 'user','suitabilityplus', 200,189);
+INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('38777179709442009d61edb101c6ea84', '442adb6efa5847f39ca2ed1fecdfe86c', 'user','HRPowerSuite', 100,4);
+INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('08dbe05606e4dad9d3390ef10e334f9', '442adb6efa5847f39ca2ed1fecdfe86c', 'coreprod','WildCat Application Gateway', 16,16);
